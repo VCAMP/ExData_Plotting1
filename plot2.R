@@ -1,6 +1,7 @@
 ### PLOT 2 ###
 
-Sys.setlocale("LC_TIME", "ENG")
+Sys.setlocale("LC_TIME", "ENG") ##This will fix the time language setting if your locale variables are 
+## set to something other than English (as in my case) 
 
 # 1) Checks whether we have the data set in the working directory and proceeds to download it and/or
 # unzip it if necessary.
